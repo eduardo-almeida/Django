@@ -1,5 +1,5 @@
 """
-WSGI config for proj_test project.
+WSGI config for controle_gastos project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'proj_test.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'controle_gastos.settings')
 
 application = get_wsgi_application()
